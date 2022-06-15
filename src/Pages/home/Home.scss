@@ -1,4 +1,17 @@
-.home{
-    background-color: var(--main-color);
-    overflow: hidden;
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    background-color: #111;
+}
+body {
+    font-family: 'Martel Sans', sans-serif;
+}
+@media screen and (max-width: 700px) {
+    .app {
+        width: 100%;
+    }
 }

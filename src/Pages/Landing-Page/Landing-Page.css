@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #000000;
+    font-size: 15px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.blur {
+    filter: blur(3px);
+}
+
+
+
+.navs {
+    display: flex;
+    justify-content: space-between;
+    padding-right:  1.5em;
+    align-items: center;
+    position: fixed;
+}
+.hero {
+    height:  100vh;
+}
+
+.logo {
+    width: 15%;
+
+    
+}
+.signin {
+    background-color: #E30914;
+    padding: .7em 1.5em;
+    outline: none;
+    border: none;
+    border-radius: .5em;
+    color: white;
+}
+
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 2em;
+    font-size: 1rem;
+    gap: 1.5em;
+}
+
+.login label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+    text-align: start;
+    gap: 20px;
+}
+
+.login input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+    padding: .7em .3em;
+    background-color: rgb(29, 26, 26);
+    outline: none;
+    border: none;
+    color: rgb(190, 181, 181);
+    border-radius: 5px;
+    gap:10px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.remember p {
+    display: inline;
+    margin-left: .5em;
+}
+
+
+
+button {
+    padding: .5em 1em;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.overflow {
+    height: 100vh;
+    overflow: hidden;
+}
+.intro2 {
+    position: relative;
+}
+
+.body {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    top: 50%;
+     -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 99;
+
+}
+
+
+ .background {
+    background: url(../../Images/pic3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #E30914;
+    color: rgb(190, 181, 181);
+    display: flex;
+    width: 50%;
+    border-radius: 8px;
+}
+
+
+.text2 {
+    width: 80%;
+    margin: 0 auto 2em;
+    line-height: 1.5;
+    align-self: flex-end;
+    
+}
+
+.background .text h1 {
+    margin-bottom: .1em;
+}
+
+
+.authentication {
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    padding: .5em 1em;
+}
+
+.authentication .container2 {
+    color: rgba(53, 49, 49, 0.76);
+    margin: 2em;
+} 
+
+.container2 h1 {
+    margin-bottom: 1em;
+    font-weight: normal;
+    text-align: start;
+}
+
+.noaccount {
+    margin-top: 2em;
+}
+
+.toggle-btn {
+    margin-left: .5em;
+}
+.exit {
+    size:2rem;
+    display: flex;
+    align-items: end;
+    border-radius: 50%;
+    padding: 1em;
+    color: white;
+    cursor: pointer;
+
+}
+.exit:hover {
+    color: #E30914;
+    padding: .7em;
+}
+/* .input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+} */

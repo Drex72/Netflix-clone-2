@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.app {
+  background-color: #111;
+}
+
+body {
+  font-family: 'Martel Sans', sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+  .app {
+    width: 100%;
+    border: 3px solid red;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

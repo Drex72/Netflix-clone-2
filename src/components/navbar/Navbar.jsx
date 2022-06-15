@@ -5,7 +5,7 @@ import { useState } from 'react';
 import "../../index.css"
 
 const Navbar = () => {
-ssh
+const [isScrolled, setIsScrolled] = useState(false)
     window.onscroll = () => {
         setIsScrolled(window.scrollY === 0 ? false : true);
         // clean-up function
